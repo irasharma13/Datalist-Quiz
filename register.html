@@ -1,0 +1,76 @@
+<html>
+<head>
+<title> User Registration</title>
+<style>
+#wrapper { 
+    width:400px;
+    height:auto; /* Adjusted to auto for dynamic content */
+    margin:auto;
+    margin-top:50px;
+    margin-left:400px; /* Adjust as needed to center */
+    border-style:solid;
+    border-radius: 10px;
+    border-width:3px;
+    border-color: gray;
+    background-color:grey;
+    padding-top:15px;
+}
+#inner1 { 
+    width:400px;
+    margin-top:27px;
+    background-color: whitesmoke;
+    height:auto; /* Adjusted for content */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;  
+}
+label{
+    margin-left: 70px;
+    font-family:sans-serif;
+}
+input, select, textarea {
+    margin-top: 10px;
+    margin-left: 70px; /* Align inputs */
+    width:200px;
+    height:30px;
+}
+#submit{
+    width: 80px;
+    height: 30px;
+    border-radius:10px;
+    margin-left: 120px;  
+    margin-top: 20px; /* Adjusted margin */
+    font-family:sans-serif;
+}
+#user{
+    padding-top:30px;
+    margin-top:30px;
+    font-family:sans-serif; 
+}
+#anchor{
+    margin-left: 70px; /* Align with other elements */
+    display:block; /* Make it block to move to next line */
+}
+</style>  
+</head>
+<body>
+    <div id="wrapper">
+        <center><span id="user">User Registration</span></center>
+        <div id="inner1">
+            <form>
+                <label>First Name:</label>
+                <input type="text" name="firstname" /><br>
+                <label>Last Name:</label>
+                <input type="text" name="lastname" /><br>
+                <label>Email:</label>
+                <input type="email" name="email" /><br>
+                <label>Password:</label>
+                <input type="password" name="password" /><br>
+                <label>Confirm Password:</label>
+                <input type="password" name="confirmPassword" /><br>
+                <!-- Additional fields as needed -->
+                <input id="submit" type="submit" value="Register" >
+            </form>
+        </div>
+    </div>
+</body>
+</html>
